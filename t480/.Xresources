@@ -1,0 +1,70 @@
+! special
+*.foreground:   #919191
+*.background:   #000000
+*.cursorColor:  #919191
+
+! black
+*.color0:       #303030
+*.color8:       #5e5e5e
+
+! red
+*.color1:       #c10023
+*.color9:       #ff8781
+
+! green
+*.color2:       #a83334
+*.color10:      #ffa095
+
+! yellow
+*.color3:       #b51d2c
+*.color11:      #ff948b
+
+! blue
+*.color4:       #8c4b46
+*.color12:      #feb2aa
+
+! magenta
+*.color5:       #7d534f
+*.color13:      #ebbbb5
+
+! cyan
+*.color6:       #9a413d
+*.color14:      #ffaaa0
+
+! white
+*.color7:       #c6c6c6
+*.color15:      #ffffff
+
+URxvt.font: xft:DejaVu Sans Mono for Powerline:style=Regular:size=12
+URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:style=Bold:size=12
+URxvt.italicFont: xft:DejaVu Sans Mono for Powerline:style=Italic:size=12
+URxvt.boldItalicFont: xft:Inocnsolata for Powerline:style=Bold Italic:size=12
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+
+!URxvt.depth: 24
+!URxvt.iso14755: false
+
+!rofi.font:xft:Inconsolata:size=12
+
+rofi.lines:5
+
+!                       line bg         unselected      line bg 2       selected bg 	selected text
+rofi.color-normal:	#00000000,	#ffffff,	#00000000,	#00000000,	#c10023
+! 			bg		bg-border	borderline
+rofi.color-window:	#000000,	#00000000,	#5e5e5e
+!			current-inac	curr-inac-txt	bg-not-hig	cur-hig-bg	cur-hig-txt
+rofi.color-active:	#000000,	#5e5e5e,	#000000,	#000000,	#ff8781
+!vertical padding
+rofi.padding:100
+!percentage of horizontal screen it takes up
+rofi.width:60
+
