@@ -1,12 +1,12 @@
-Monochrome KDE Setup
+#Monochrome KDE Setup
 
-Distro: **placeholder**
+Distro: (Manjaro Linux)[https://manjaro.org/]
 
-DE:**placeholder**
+DE: (KDE Plasma)[https://kde.org/]
 
-Terminal Theme:**placeholder**
+Terminal Theme: (Monochrome KDE)[https://gitlab.com/pwyde/monochrome-kde]
 
-GTK Theme:**placeholder**
+GTK Theme: (Custom made using oomox)[https://github.com/themix-project/oomox]
 
-Firefox: **placeholder**
+Firefox: (Custom made using Firefox Color)[https://color.firefox.com/]
 
