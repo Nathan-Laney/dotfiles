@@ -1,0 +1,109 @@
+# Configuration for flavours
+# https://github.com/Misterio77/flavours
+#
+# Example config and default values
+#
+# [[item]]
+# file = '~/.config/example' (file to inject to, supports tilde and env var expansion. required)
+# template = 'example' (template to use. required)
+# subtemplate = 'default' (subtemplate to use)
+# rewrite = false (should we rewrite the entire file?)
+# start = '# Start flavours' (if not rewriting, where to start replacing)
+# end = '# End flavours' (if not rewriting, where to stop replacing)
+# hook = '' (command to execute after injecting)
+#
+# Example for i3
+#
+# [[item]]
+# file = '~/.config/i3/config'
+# template = 'i3'
+# subtemplate = 'colors'
+# hook = 'i3-msg reload'
+# rewrite = false
+
+# Alacritty
+[[item]]
+file = '~/.config/alacritty/alacritty.yml'
+template = 'alacritty'
+subtemplate = 'default-256'
+
+# Discord
+[[item]]
+file = '~/.config/beautifuldiscord/style.css'
+template = 'styles'
+subtemplate = 'css-variables'
+rewrite = false
+start= '/* Start flavours */'
+end = '/* End flavours */'
+
+# Rofi
+[[item]]
+file = '~/.config/rofi/themes/styles/colors.rasi'
+template = 'rofi'
+subtemplate = 'colors'
+rewrite = true
+
+# GTK Theme - FlatColor
+[[item]]
+file = '~/.themes/FlatColor/colors2'
+template = 'gtk-flatcolor'
+subtemplate = 'gtk-2'
+rewrite = true
+
+[[item]]
+file = '~/.themes/FlatColor/colors3'
+template = 'gtk-flatcolor'
+subtemplate = 'gtk-3'
+rewrite = true
+hook = 'systemctl restart --user xsettingsd'
+
+# Spotify / Spicetify
+[[item]]
+file = '~/.config/spicetify/Themes/base16/color.ini'
+template = 'spotify'
+rewrite = true
+
+# OpenBox
+[[item]]
+file = '~/.themes/BunsenLabs/openbox-3/themerc'
+template = 'openbox'
+rewrite = true
+
+# Firefox
+#[[item]]
+#file = '/home/nathan/.mozilla/firefox/63j5s8pz.default-release-1607045981900/chrome/userContent.css'
+#template = 'firefox'
+#subtemplate = 'userContent'
+#rewrite = true
+
+#[[item]]
+#file = '/home/nathan/.mozilla/firefox/63j5s8pz.default-release-1607045981900/chrome/userChrome.css'
+#template = 'firefox'
+#subtemplate = 'userChrome'
+#rewrite = true
+
+# My Site CSS
+[[item]]
+file = '/home/nathan/.website/newTab.css'
+template = 'mySite'
+subtemplate = 'css'
+rewrite = true
+
+# Code OSS
+[[item]]
+file = '/home/nathan/.vscode-oss/extensions/base16-generated/themes/Base16-Generated-color-theme.json'
+#file = '/home/nathan/.config/Code - OSS/User/settings.json'
+template = 'vscode'
+rewrite = true
+
+# Tint2 Panel
+[[item]]
+file = '/home/nathan/.config/tint2/tint2rc'
+template = 'tint2'
+rewrite = true
+
+# Polybar
+#[[item]]
+#file = '/home/nathan/.config/polybar/config.ini'
+#template = 'polybar'
+#rewrite = false
