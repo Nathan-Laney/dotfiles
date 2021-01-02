@@ -1,0 +1,54 @@
+#font:
+  #size: 12.0
+      # normal:
+      #        family: FiraCode Nerd Font
+window:
+    padding:
+        x: 30
+        y: 25
+    dynamic_title: true
+# Start flavours
+# Base16 Generated 256 - alacritty color config
+# Flavours
+colors:
+  # Default colors
+  primary:
+    background: '0x26233c'
+    foreground: '0xe7e8ed'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x26233c'
+    cursor: '0xe7e8ed'
+
+  # Normal colors
+  normal:
+    black:   '0x26233c'
+    red:     '0x7483c4'
+    green:   '0x706dcd'
+    yellow:  '0x797bc4'
+    blue:    '0x836ac0'
+    magenta: '0x816db2'
+    cyan:    '0x848cba'
+    white:   '0xe7e8ed'
+
+  # Bright colors
+  bright:
+    black:   '0x9a99a6'
+    red:     '0x7483c4'
+    green:   '0x706dcd'
+    yellow:  '0x797bc4'
+    blue:    '0x836ac0'
+    magenta: '0x816db2'
+    cyan:    '0x848cba'
+    white:   '0xeeeff3'
+
+  indexed_colors:
+    - { index: 16, color: '0x8b83bc' }
+    - { index: 17, color: '0x7672aa' }
+    - { index: 18, color: '0x4d4b5f' }
+    - { index: 19, color: '0x737283' }
+    - { index: 20, color: '0xc1c1ca' }
+    - { index: 21, color: '0xebebf0' }
+# End flavours
+    
