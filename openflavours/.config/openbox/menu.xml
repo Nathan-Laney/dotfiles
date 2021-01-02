@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+
+        <!-- Change Theme script / feh_flavours.sh -->
+        <item label="Change Theme"> 
+            <action name="Execute">
+                    <execute>/home/nathan/.scripts/feh_flavours.sh</execute>
+            </action> 
+        </item>
+        <separator />
+
+        <!-- Alacritty / Terminal -->
+        <item label="Terminal"> 
+            <action name="Execute">
+                <execute>alacritty</execute>
+            </action> 
+        </item>
+
+        <!-- Firefox -->
+        <item label="Firefox"> <action name="Execute">
+                    <execute>firefox</execute>
+                </action> 
+           </item>
+
+        <!-- Discord -->
+        <item label="Discord"> 
+            <action name="Execute">
+                    <execute>discord-canary</execute>
+           </action> 
+        </item>
+
+        <!-- Spotify / Spicetify -->
+        <item label="Spotify"> 
+            <action name="Execute">
+                    <execute>spicetify watch -l</execute>
+            </action> 
+        </item>
+
+        <separator />
+        
+
+        <menu id="1" label="File Managers">
+
+            <!-- Thunar -->
+            <item label="Thunar"> 
+                <action name="Execute">
+                    <execute>thunar</execute>
+                </action> 
+            </item>
+
+            <!-- Ranger -->
+            <item label="ranger"> <action name="Execute">
+                <execute>alacritty -e ranger</execute>
+            </action> </item>
+        </menu>
+
+        <menu id="2" label="Games">
+
+            <!-- Steam -->
+            <item label="Steam">
+                <action name="Execute">
+                    <execute>steam</execute>
+                </action> 
+            </item>
+
+            <!-- Minecraft -->
+            <item label="Minecraft">
+                <action name="Execute">
+                    <execute>minecraft-launcher</execute>
+                </action> 
+            </item>
+        </menu>
+
+
+        <menu id="3" label="Office">
+            <item label="LibreOffice Calc"> <action name="Execute">
+                <execute>libreoffice --calc</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice --impress</execute>
+            </action> </item>
+            <item label="LibreOffice Math"> <action name="Execute">
+                <execute>libreoffice --math</execute>
+            </action> </item>
+            <item label="LibreOffice Writer"> <action name="Execute">
+                <execute>libreoffice --writer</execute>
+            </action> </item>
+            <item label="LibreOffice Draw"> <action name="Execute">
+                <execute>libreoffice --draw</execute>
+            </action> </item>
+
+            <item label="Zoom"> <action name="Execute">
+                <execute>zoom</execute>
+            </action> </item>
+        </menu>
+
+        <menu id="4" label="System">
+            <menu id="5" label="Audio / Video">
+            <item label="PulseAudio"> <action name="Execute">
+                <execute>pavu-control</execute>
+            </action> </item>
+            <item label="ALSA mixer"> <action name="Execute">
+                <execute>alacritty -e alsamixer</execute>
+            </action> </item>
+            <item label="Qt V4L2 test Utility"> <action name="Execute">
+                <execute>qv4l2</execute>
+            </action> </item>
+            <item label="Qt V4L2 video capture utility"> <action name="Execute">
+                <execute>qvidcap</execute>
+            </action> </item>
+            <item label="SimpleScreenRecorder"> <action name="Execute">
+                <execute>simplescreenrecorder --logfile</execute>
+            </action> </item>
+            <item label="VLC media player"> <action name="Execute">
+                <execute>vlc</execute>
+            </action> </item>
+            </menu>
+                <menu id="6" label="Utilities">
+                <item label="Xev"> <action name="Execute">
+                    <execute>alacritty -e xev</execute>
+                </action> </item>
+                <item label="Xkill"> <action name="Execute">
+                    <execute>xkill</execute>
+                </action> </item>
+                <item label="Xrefresh"> <action name="Execute">
+                    <execute>xrefresh</execute>
+                </action> </item>
+                <item label="Xsetroot"> <action name="Execute">
+                    <execute>xsetroot</execute>
+                </action> </item>    
+                <item label="Advanced Network Configuration"> <action name="Execute">
+                    <execute>nm-connection-editor</execute>
+                </action> </item>            
+                <item label="ARandR"> <action name="Execute">
+                    <execute>arandr</execute>
+                </action> </item>
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="File Manager Settings"> <action name="Execute">
+                    <execute>thunar-settings</execute>
+                </action> </item>
+                <item label="Manage Printing"> <action name="Execute">
+                    <execute>xdg-open http://localhost:631/</execute>
+                </action> </item>
+                <item label="nitrogen"> <action name="Execute">
+                    <execute>nitrogen</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>exo-preferred-applications</execute>
+                </action> </item>
+                <item label="Print Settings"> <action name="Execute">
+                    <execute>system-config-printer</execute>
+                </action> </item>
+                <item label="Qt5 Settings"> <action name="Execute">
+                    <execute>qt5ct</execute>
+                </action> </item>
+                <item label="Tint2 Settings"> <action name="Execute">
+                    <execute>tint2conf</execute>
+                </action> </item>
+                <item label="Tint2"> <action name="Execute">
+                    <execute>tint2</execute>
+                </action> </item>
+                <item label="Top"> <action name="Execute">
+                        <execute>alacritty -e top</execute>
+                </action> </item>
+                </menu>
+        
+        </menu>
+        
+        
+        
+        <separator/>
+        <menu id="7" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>
