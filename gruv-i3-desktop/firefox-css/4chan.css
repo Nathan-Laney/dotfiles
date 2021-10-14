@@ -1,0 +1,125 @@
+body {
+    background: #282828 !important;
+    color: #ebdbb2 !important;
+}
+
+#logo-fp img {
+   display: none !important;
+}
+/*
+.boxbar {
+    color: #F2F2F !important; 
+    background: #282828 !important;
+}
+
+.boxcontent {
+    background: #282828 !important;
+}
+*/
+.button{
+    color: #d65d0e !important;
+}
+.button:hover{
+    color: #fe8019 !important;
+}
+#boards a {
+    color: #689d6a !important;
+}
+a:not(button), a:visited:not(.button) {
+    color: #689d6a !important;
+}
+a:hover {
+    color: #8ec07c !important;
+}
+span {
+    color: #a89984 !important;
+    background-color: #282828 !important;
+}
+div.boardBanner {
+    display: none !important;
+}
+blockquote > span.quote {
+    color: #98971a;
+}
+.globalMessage{
+    display: none !important;
+} 
+
+#toggleMsgBtn {
+    display: none !important;
+} 
+
+span.subject {
+     color: #cc241d !important;
+}
+
+span.name {
+     color: #b16286 !important;
+}
+
+span.postNum.desktop a{
+     color: #d65d0e !important;
+}
+div.post div.postInfo span.postNum a:hover, .posteruid .hand:hover{
+     color: #fe8019 !important;
+}
+/* Viittaukset */
+.yotsuba_b_new .backlink a{
+     color: #689d6a !important;
+}
+/* Click here to view */
+a.replylink, a.replylink:not(:hover) {
+     color: #d65d0e !important;
+}
+a.replylink:hover {
+     color: #fe8019 !important;
+}
+
+/* Vastauslinkki */
+a.quotelink {
+    color: #d65d0e !important;    
+}
+
+a.quotelink:hover {
+    color: #fe8019 !important;    
+}
+
+div.reply {
+    background-color: #282828 !important; 
+    border: 1px solid #3c3836 !important;
+}
+
+div#boardNavDesktop a {
+    color: #ebdbb2 !important;
+}
+div#boardNavDesktop a:hover {
+    color: #d65d0e !important;
+}
+
+div.pagelist {
+    color: #ebdbb2 !important;
+    background: #282828 !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+}
+
+div.post div.postInfo span.postNum > a {
+    color: #d65d0e !important;;
+}
+div.post div.postInfo span.postNum > a:hover {
+    color: #fe8019 !important;;
+}
+div.thread {
+    border: 1px solid #3c3836 !important;
+}
+div#absbot a {
+    color: #689d6a !important;
+}
+div#absbot a:hover {
+    color: #8ec07c !important;
+}
+hr {
+    color: #1d2021 !important;
+    border: none !important;
+    border-top:  1px solid #282828 !important;
+}
