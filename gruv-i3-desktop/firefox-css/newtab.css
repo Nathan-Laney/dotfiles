@@ -1,0 +1,41 @@
+/* CSS styles */
+* {
+  font-family: Trebuchet, Arial, sans-serif;
+  color: #ebdbb2;
+  background-color:#282828;
+  text-align:left;
+  font-size:25px;
+  margin:auto;
+  
+}
+table, td {
+  color:#282828 ;
+  padding-left:2%;
+  padding-right:2%;
+  padding-top:2em
+}
+td {
+  color:#ebdbb2;
+  padding-left:3em;
+  padding-right:3em;
+  padding-top:2em
+}
+
+a {
+  color:#ebdbb2; 
+  background-color:#282828  ;
+  border:15px solid #282828 ;
+  outline:2px solid #282828 ;
+  outline-offset:-2px;
+  border-radius:15px;
+  text-decoration:none;
+}
+a:hover {
+  color:#282828 ;
+  background-color:#ebdbb2;
+  border:15px solid #ebdbb2;
+  outline:2px solid #282828 ;
+  outline-offset:-2px;
+  border-radius:15px;
+  text-decoration:none;
+}
